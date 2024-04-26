@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import burgerMenu from "../../../assets/navbar/burger-menu.svg";
+import burgerMenu from "../../../assets/home/navbar/burger-menu.svg";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -25,24 +25,35 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <menu className="hidden sm:flex sm:justify-center sm:items-center gap-4 font-medium">
         {navItems.map((item) => (
-          <button key={item.id} className=" px-2 py-3">
+          <button
+            key={item.id}
+            className=" px-2 py-3 hover:bg-[#d6cba1] rounded-lg duration-100"
+          >
             {item.text}
           </button>
         ))}
-        <button className=" border-2 border-[#78350F] w-[149px] h-12 rounded-lg p-3">
+        <button className=" border-2 border-[#78350F] hover:bg-[#78350F] hover:text-[#FEF3C7] duration-100 w-[149px] h-12 rounded-lg p-3">
           Sign up now
         </button>
       </menu>
       {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className="block sm:hidden">
-        {nav ? <img src={burgerMenu} alt="menu-logo-close" className="[transform:rotateX(180deg)]" /> : <img src={burgerMenu} alt="menu-logo-open" /> }
+        {nav ? (
+          <img
+            src={burgerMenu}
+            alt="menu-logo-close"
+            className="[transform:rotateX(180deg)]"
+          />
+        ) : (
+          <img src={burgerMenu} alt="menu-logo-open" />
+        )}
       </div>
       {/* Mobile Navigation Menu */}
       <menu
         className={
           nav
-            ? "fixed sm:hidden top-16 w-full left-0 bg-[#FEF3C7] ease-in-out duration-500 -z-10"
-            : "fixed top-[-100%] left-0 w-full ease-in-out duration-500 -z-10"
+            ? "fixed sm:hidden top-16 w-full left-0 bg-[#FEF3C7] ease-in-out duration-500"
+            : "fixed top-[-100%] left-0 w-full ease-in-out duration-500"
         }
       >
         {/* Mobile Navigation Items */}
