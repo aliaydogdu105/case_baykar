@@ -52,7 +52,7 @@ const Navbar = () => {
       <menu
         className={
           nav
-            ? "fixed sm:hidden top-16 w-full left-0 bg-[#FEF3C7] ease-in-out duration-500"
+            ? "fixed sm:hidden top-16 w-full h-screen left-0 bg-[#FEF3C7] ease-in-out duration-500 z-40"
             : "fixed top-[-100%] left-0 w-full ease-in-out duration-500"
         }
       >
