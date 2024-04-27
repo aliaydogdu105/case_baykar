@@ -5,7 +5,7 @@ import card3 from "../../../assets/products/card3.png";
 
 const ProductCards = () => {
   return (
-    <div className=" flex flex-col justify-center items-center sm:flex-row w-full h-[1528px] sm:h-[527px] sm:w-[1358px] bg-[url('../../../../public/bgProductsMobile.png')] sm:bg-[url('../../../../public/bgProducts.png')] bg-contain">
+    <div className=" flex flex-col justify-center items-center sm:flex-row w-full h-[1528px] sm:h-[527px] sm:w-[1358px] bg-[url('/bgProductsMobile.png')] sm:bg-[url('/bgProducts.png')] bg-contain">
       {/* cards */}
       <div className="flex flex-col sm:flex-row w-[361px] sm:w-[1280px] sm:h-[472px] gap-12">
         <div
