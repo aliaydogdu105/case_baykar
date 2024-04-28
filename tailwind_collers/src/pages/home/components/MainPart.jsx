@@ -14,7 +14,7 @@ const MainPart = () => {
           suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices
           amet.
         </p>
-        <div className=" flex gap-4">
+        <div className=" flex justify-center sm:justify-start gap-4">
           <button className=" border-2 border-[#78350F] hover:bg-[#78350F] hover:text-[#FEF3C7] duration-100 w-[149px] h-12 rounded-lg p-3">
             Sign up now
           </button>
@@ -27,10 +27,7 @@ const MainPart = () => {
         </div>
       </div>
       <div className="relative w-[361px] h-[314.2px] sm:w-[486px] sm:h-[423px]">
-        <img
-          src={shoe}
-          alt="shoe"
-        />
+        <img src={shoe} alt="shoe" />
       </div>
     </div>
   );
