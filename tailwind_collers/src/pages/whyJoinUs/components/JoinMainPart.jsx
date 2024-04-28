@@ -1,6 +1,7 @@
 import React from "react";
 import SignUpNowBtn from "../../../components/SignUpNowBtn";
 import running from "../../../assets/whyJoinUs/running.png";
+import bgJoin from "../../../assets/whyJoinUs/bg-join.png";
 
 const JoinMainPart = () => {
   return (
@@ -30,7 +31,10 @@ const JoinMainPart = () => {
         <SignUpNowBtn />
       </div>
       {/* video part */}
-      <div className=" flex justify-center items-center w-[430px] sm:w-[713px] sm:-mr-36 sm:h-[625.24px] h-[386px] bg-[url('/bg-join.png')] bg-cover bg-center -m-12 ">
+      <div
+        className=" flex justify-center items-center w-[430px] sm:w-[713px] sm:-mr-36 sm:h-[625.24px] h-[386px] bg-cover bg-center -m-12 "
+        style={{ backgroundImage: `url(${bgJoin})` }}
+      >
         <div
           className="relative w-[329px] h-[234px] rounded-[20px] border-[5px] mt-8 sm:mt-0 border-white sm:w-[520px] sm:h-[350px] sm:mr-12"
           style={{
@@ -51,7 +55,7 @@ const JoinMainPart = () => {
             className=" grid place-content-center w-full h-[calc(100%-41px)] rounded-b-2xl bg-red-300 bg-cover"
             style={{ backgroundImage: `url(${running})` }}
           >
-            <div className=" grid place-content-center w-36 h-36 bg-[#121619BF] rounded-full">
+            <div className=" grid place-content-center w-36 h-36 bg-[#121619BF] rounded-full cursor-pointer hover:bg-[#121619dd] active:scale-95">
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
