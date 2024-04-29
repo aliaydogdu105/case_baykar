@@ -4,11 +4,11 @@ import zoomerr from "../../../assets/theyLoveUs/logos/zoomerr.png";
 import shells from "../../../assets/theyLoveUs/logos/shells.png";
 import artvenue from "../../../assets/theyLoveUs/logos/artvenue.png";
 import waves from "../../../assets/theyLoveUs/logos/waves.png";
-import image1 from "../../../assets/theyLoveUs/user-thumb/image1.png";
-import image2 from "../../../assets/theyLoveUs/user-thumb/image2.png";
-import image3 from "../../../assets/theyLoveUs/user-thumb/image3.png";
-import image4 from "../../../assets/theyLoveUs/user-thumb/image4.png";
-import image5 from "../../../assets/theyLoveUs/user-thumb/image5.png";
+import image1 from "../../../assets/theyLoveUs/user-thumb/image1.jpg";
+import image2 from "../../../assets/theyLoveUs/user-thumb/image2.jpg";
+import image3 from "../../../assets/theyLoveUs/user-thumb/image3.jpg";
+import image4 from "../../../assets/theyLoveUs/user-thumb/image4.jpg";
+import image5 from "../../../assets/theyLoveUs/user-thumb/image5.jpg";
 
 const Cards = () => {
   const cards = [
