@@ -1,5 +1,6 @@
 import HomePage from "./pages/home/HomePage";
 import ProductsPage from "./pages/products/ProductsPage";
+import TheyLoveUsPage from "./pages/theyLoveUs/TheyLoveUsPage";
 import WhyJoinUsPage from "./pages/whyJoinUs/WhyJoinUsPage";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <HomePage />
       <ProductsPage />
       <WhyJoinUsPage />
+      <TheyLoveUsPage />
     </>
   );
 }
