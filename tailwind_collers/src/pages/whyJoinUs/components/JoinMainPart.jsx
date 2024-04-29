@@ -1,6 +1,6 @@
 import React from "react";
 import SignUpNowBtn from "../../../components/SignUpNowBtn";
-import running from "../../../assets/whyJoinUs/running.png";
+import running from "../../../assets/whyJoinUs/running.jpg";
 import bgJoin from "../../../assets/whyJoinUs/bg-join.png";
 
 const JoinMainPart = () => {

@@ -1,3 +1,4 @@
+import GrowYourCollectionPage from "./pages/growYourCollectionPage/GrowYourCollectionPage";
 import HomePage from "./pages/home/HomePage";
 import ProductsPage from "./pages/products/ProductsPage";
 import TheyLoveUsPage from "./pages/theyLoveUs/TheyLoveUsPage";
@@ -10,6 +11,7 @@ function App() {
       <ProductsPage />
       <WhyJoinUsPage />
       <TheyLoveUsPage />
+      <GrowYourCollectionPage />
     </>
   );
 }
