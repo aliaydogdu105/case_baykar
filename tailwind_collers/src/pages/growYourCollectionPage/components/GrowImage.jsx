@@ -7,7 +7,7 @@ const GrowImage = () => {
   return (
     <div className=" w-[361px] h-[347px] gap-8 sm:w-[1280px] sm:h-[556px] sm:gap-20  flex flex-col sm:flex-row">
       {/* menu */}
-      <div className=" w-full sm:w-64 sm:h-[416px] h-14 flex sm:flex-col gap-4  text-[#0F172A]">
+      <div className=" w-full sm:w-64 sm:h-[416px] h-14 flex sm:flex-col gap-4  text-[#0F172A] overflow-hidden overflow-x-scroll">
         <div
           className=" h-14 sm:h-64 flex justify-around items-center rounded-md bg-white border border-gray-50"
           style={{
