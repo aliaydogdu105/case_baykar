@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import GrowYourCollectionPage from "./pages/growYourCollectionPage/GrowYourCollectionPage";
 import HomePage from "./pages/home/HomePage";
 import ProductsPage from "./pages/products/ProductsPage";
@@ -14,6 +15,7 @@ function App() {
       <TheyLoveUsPage />
       <GrowYourCollectionPage />
       <ShoesCollectedPage />
+      <Footer />
     </>
   );
 }
