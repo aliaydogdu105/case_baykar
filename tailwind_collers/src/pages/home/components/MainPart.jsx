@@ -6,7 +6,7 @@ const MainPart = () => {
   return (
     <div className=" flex flex-col justify-center items-center sm:flex-row w-full sm:max-w-[1440px] sm:h-[583px] h-[802.2px] px-4 py-12 sm:p-20 gap-8 sm:gap-20">
       <div className=" flex flex-col justify-center sm:w-[714px] w-full sm:gap-12 gap-8">
-        <h1 className=" h-[124px] sm:h-[79px] text-[56px] leading-[61.6px] sm:text-7xl font-extrabold text-[#0F172A] text-center">
+        <h1 className=" h-[124px] sm:h-[79px] text-[56px] leading-[61.6px] sm:w-[714px] sm:text-6xl sm:leading-[79.2px] font-extrabold text-[#0F172A] text-center sm:text-left">
           Collectible Sneakers
         </h1>
         <p className=" h-[116px] sm:h-[58px] text-center sm:text-left text-[18px] font-normal leading-[28.8px]">
