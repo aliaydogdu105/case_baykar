@@ -32,7 +32,7 @@ const JoinMainPart = () => {
       </div>
       {/* video part */}
       <div
-        className=" flex justify-center items-center w-[430px] sm:w-[713px] sm:-mr-36 sm:h-[625.24px] h-[386px] bg-cover bg-center -m-12 "
+        className=" flex justify-center items-center w-[428px] sm:w-[713px] sm:-mr-36 sm:h-[625.24px] h-[386px] bg-cover bg-center -m-12 overflow-clip"
         style={{ backgroundImage: `url(${bgJoin})` }}
       >
         <div
