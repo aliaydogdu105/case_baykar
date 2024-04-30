@@ -37,7 +37,7 @@ const Navbar = () => {
         </button>
       </menu>
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className="block sm:hidden">
+      <div onClick={handleNav} className="block sm:hidden z-40">
         {nav ? (
           <img
             src={burgerMenu}
@@ -52,7 +52,7 @@ const Navbar = () => {
       <menu
         className={
           nav
-            ? "fixed sm:hidden top-16 w-full h-screen left-0 bg-[#FEF3C7] ease-in-out duration-500 z-40"
+            ? "fixed sm:hidden top-0 w-full h-screen pt-16 left-0 bg-[#FEF3C7] ease-in-out duration-500 z-30"
             : "fixed top-[-100%] left-0 w-full ease-in-out duration-500"
         }
       >
