@@ -31,7 +31,7 @@ const ShoesCollectedPage = () => {
         <div className=" text-5xl sm:text-8xl h-[53px] sm:h-[106px] font-extrabold leading-[52.8px] ">
           11,658,467
         </div>
-        <div className=" text-[32px] h-[35px] leading-[35.2px] font-bold  ">
+        <div className=" text-[32px] sm:text-[56px] sm:font-extrabold h-[35px] leading-[35.2px] font-bold  ">
           Shoes Collected
         </div>
       </div>
