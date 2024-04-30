@@ -59,7 +59,7 @@ const Cards = () => {
     },
   ];
   return (
-    <>
+    <div className=" flex overflow-x-auto gap-5" >
       {cards.map((card) => (
         <div
           key={card.id}
@@ -94,7 +94,7 @@ const Cards = () => {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 };
 
